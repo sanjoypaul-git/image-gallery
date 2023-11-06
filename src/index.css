@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hidden {
+  color: transparent;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+}
