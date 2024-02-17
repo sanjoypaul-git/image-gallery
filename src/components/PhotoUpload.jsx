@@ -1,7 +1,7 @@
+import { convertImage } from '@libs/convertImage';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { ImImage } from 'react-icons/im';
-import { convertImage } from './convertImage';
 
 const imageMimeType = /image\/(png|jpg|jpeg)/i;
 
